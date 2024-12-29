@@ -1,0 +1,68 @@
+.notice-list {
+    margin-top: 20px;
+  }
+  
+  .notice-list h2 {
+    text-align: center;
+    color: #444;
+  }
+  
+  .notice-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .notice-item {
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .notice-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .notice-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .notice-title {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .notice-body {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .attachment-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .attachment-link:hover {
+    text-decoration: underline;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  

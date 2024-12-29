@@ -1,0 +1,111 @@
+.notice-board {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notice-board h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #495057;
+  }
+  
+  .notice-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .notice-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .notice-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .notice-card h3 {
+    font-size: 20px;
+    color: #343a40;
+    margin-bottom: 10px;
+  }
+  
+  .notice-card p {
+    font-size: 16px;
+    color: #6c757d;
+  }
+  
+  .slide-panel {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide-panel-header {
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-btn {
+    font-size: 20px;
+    color: white;
+    background: none;
+    border: none;
+  }
+  
+  .slide-panel-body {
+    padding: 20px;
+    font-size: 16px;
+    color: #343a40;
+  }
+  
+  .download-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #218838;
+  }
+  
+  .delete-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
